@@ -149,7 +149,7 @@
       <section class="card">
         <h2 class="card__title">1 спринт: А если не получится?</h2>
         <div class="card__image-wrapper">
-          <span class="card__label">&#60;Пока живём&#62;</span>
+          <span class="card__label">&#60;Пока нормально&#62;</span>
           <img
             class="card__image card__image-filter-3"
             src="./images/84cca83dc1727069982813a1a1407279.jpg"
@@ -446,7 +446,7 @@
       <section class="card">
         <h2 class="card__title">«Сейчас я здесь»</h2>
         <div class="card__image-wrapper">
-          <span class="card__label">&#60;experience&#62;</span>
+          <span class="card__label">&#60;+Опыт&#62;</span>
           <img
             class="card__image card__image-filter-8"
             src="./images/1dfd6c6f6d98312862165ac3d557057a.jpg"
@@ -507,7 +507,7 @@
       <button
         class="save-button"
         type="button"
-        onclick="document.querySelector('.dialog').showModal()"
+        onclick="window['dialog-id'].showModal()"
       >
         <svg
           class="save-button__icon"
@@ -522,7 +522,7 @@
       </button>
     </main>
 
-    <dialog class="dialog">
+    <dialog class="dialog" id="dialog-id">
       <div class="dialog__content">
         <svg
           class="dialog__icon"
