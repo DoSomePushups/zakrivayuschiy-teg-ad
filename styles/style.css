@@ -13,7 +13,7 @@
 .header {
   inline-size: var(--card-width);
   margin: 100px auto;
-  padding: clamp(7.5rem, 7.1479rem + 1.5023vw, 8rem);
+  padding: clamp(7.5rem, 7.3239rem + 0.7512vw, 8rem) 0;
   border: 2px solid var(--main-color);
   background-color: var(--bg-color);
   font-family: var(--accent-font);
